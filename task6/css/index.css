@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.width-reset{
+    width: fit-content;
+}
+
+.bg-color {
+  background-color: #0B0E13;
+}
+
+.div img{
+    /* width: 100; */
+}
+    
+
+.color{
+    color: #CBFE1C;
+}
+
+.my-btn {
+   background-color: #CBFE1C;
+color: black;
+
+}
+
+.btn-outline-success {
+border: #CBFE1C;
+}
+
+.btn:hover {
+    color: black;
+background-color: #A4CE1A;
+}
+
+
+
+.fa-gamepad{
+    color: #CBFE1C;
+}
+
+
+.nav-link {
+color: white;
+}
+
+
+.nav-link:hover{
+    color: #CBFE1C;
+}
+
+
+.fa-bell{
+    color: white;
+}
+
+span .fa-bell:hover{
+    color: #CBFE1C;
+    /* color: blue; */
+    /* font-size: 20px; */
+}
+
+.fa-message{
+    color: white;
+}
+
+
+.fa-message:hover{
+    color: #CBFE1C;
+}
+
+.btn-signin{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.btn-signin::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /*right: 0;*/
+    transition:0.3s ;
+    left: -70px;
+    /*background-color: white;*/
+    background: linear-gradient(80deg , transparent,white , transparent);
+    -webkit-transition:0 ;
+    -moz-transition:0 ;
+    -ms-transition:0 ;
+    -o-transition:0 ;
+}
+
+
+.btn-signin:hover::after {
+left:70px;
+}
+
+
+
+/* ****************************************************************end-navbar************************************************************************ */
+
+
+
+
+
+
+
+.btn-start::after{
+content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /*right: 0;*/
+    transition:0.3s ;
+    left: -100%;
+    /*background-color: white;*/
+    background: linear-gradient(80deg , transparent,white , transparent);
+}
+
+.btn-start:hover::after {
+left:100%;
+}
+
+
+.btn-watch{
+border:2px solid #CBFE1C;
+    background-color: transparent;
+    color: #CBFE1C;
+}
+
+.btn-watch::after{
+content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /*right: 0;*/
+    transition:0.3s ;
+    left: -100%;
+    /*background-color: white;*/
+    background: linear-gradient(80deg , transparent,white , transparent);
+}
+
+.btn-watch:hover::after {
+left:100%;
+}
+
+
+.text-gray{
+    color: #8F97A4;
+}
+
+
+.info-img{
+    left:120px;
+    top: 85%;
+}
+
+
+.img1 img{
+    border: 5px;
+    border:5px solid #CBFE1C;
+}
+
+
+nav{
+    background-color: #0B0E13;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) , url(../../img/img6/hero-bg.jpg);
+    /* background-color: aqua; */
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* padding-top: 500px; */
+}
+
+
+.my-after{
+    /* width: fit-content; */
+}
+
+
+.my-after::after{
+    content: "";
+    position: absolute;
+    width: 7%;
+    bottom: 45%;
+    right:37%;
+    /*left: 10px;*/
+    height: 3px;
+    border-top-right-radius:100% ;
+    border-bottom-right-radius:100% ;
+    background-color:#CBFE1C ;
+    background: linear-gradient(to right ,#CBFE1C 0% , #CBFE1C 50%, transparent  );
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+
+
+
+
+.my-after::before{
+    content: "";
+    position: absolute;
+    width: 7%;
+    bottom: 45%;
+    left:37%;
+    /*left: 10px;*/
+    height: 3px;
+    border-top-left-radius:100% ;
+    border-bottom-left-radius:100% ;
+    background-color:#CBFE1C ;
+    background: linear-gradient(to left ,#CBFE1C 0% , #CBFE1C 50%, transparent  );
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+
+.btn-view{
+    border:2px solid #CBFE1C;
+    background-color: transparent;
+    color: #CBFE1C;
+}
