@@ -642,6 +642,23 @@ background: linear-gradient(90deg, #490fa9 0%, #5518b8 50%, #6121c8 100%);;
     "send-us send-us send-us send-us send-us send-us send-us send-us send-us send-us send-us send-us "
     ;
     }
+
+
+    #Contact-Us::after{
+    display: none;
+}
+.design{
+    display: none;
+}
+
+#Contact-Us::before{
+    display: none;
+}
+.design2{
+   display: none;
+}
+
+
 }
 
 
